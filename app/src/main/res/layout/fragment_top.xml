@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.martinez.fragmentdemo.TopFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <EditText
+        android:id="@+id/topET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:width="300dp"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:singleLine="true"
+        android:hint="@string/top_text"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/bottomET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/topET"
+        android:width="300dp"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:singleLine="true"
+        android:hint="@string/bottom_text"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/bottomET"
+        android:layout_centerHorizontal="true"
+        android:text="@string/memeify_me" />
+
+</RelativeLayout>
